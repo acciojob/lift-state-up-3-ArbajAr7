@@ -11,7 +11,7 @@ const Parent = () => {
     setSelectedOption(option);
   };
   return (
-    <div className='maindiv'>
+    <div className='parent'>
       <h1 className='parentcom'>Parent Component</h1>
       <Child1 onOptionChange={handleOptionChange}/>
       <Child2 onOptionChange={handleOptionChange}/>
